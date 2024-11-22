@@ -1,0 +1,37 @@
+.field.is-horizontal {
+  display: flex;
+  align-items: flex-end;
+}
+
+.form-group {
+  flex: 1;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: emd;
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  /* flex: 0 0 150px; */
+  font-weight: bold;
+}
+
+.form-label-text {
+  white-space: nowrap;
+}
+
+.field-body {
+  flex: 1;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.test-content-box {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
