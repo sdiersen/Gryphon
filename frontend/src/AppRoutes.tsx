@@ -2,6 +2,7 @@ import { FC } from "react";
 import { Route, Routes } from "react-router-dom";
 import Login from "./components/account/Login";
 import Register from "./components/account/Register";
+import Dashboard from "./components/dashboard/Dashboard";
 
 const AppRoutes: FC = () => {
   return (
@@ -11,6 +12,7 @@ const AppRoutes: FC = () => {
       <Route path="/register" element={<Register />} />
 
       {/* Routes for authenticated users */}
+      <Route path="/dashboard" element={<Dashboard />} />
 
       {/* Routes for admin users */}
 

@@ -24,6 +24,7 @@ const Login: React.FC = () => {
     };
     try {
       await dispatch(login(loginDTO));
+      navigate("/dashboard");
     } catch (error) {
       console.error(error);
     }
